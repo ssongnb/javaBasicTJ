@@ -1,4 +1,4 @@
-package test;
+package j20211210;
 
 public class StringBufferEaxm {
     public static void main(String[] args) {

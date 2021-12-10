@@ -1,4 +1,4 @@
-package test;
+package j20211210;
 
 public class TernaryExam {
     public static void main(String[] args) {
