@@ -2,7 +2,7 @@ package j20211210;
 
 import java.util.ArrayList;
 
-public class GannneristExam {
+public class GanneristExam {
     public static void main(String[] args) {
         
             //제네릭스느 입력되는 자료형을 강제한다.
