@@ -32,7 +32,7 @@ public class LogicalExam {
 //			System.out.println("입력하신 문자는 숫자 입니다.");
 //		}else if(ch >= 'a' && ch <= 'z' || ch >= 'A' && ch <= 'Z') {
 //			System.out.println("입력하신 문자는 영문자 입니다.");
-//		}
+//		}//10진수로 구한 값
 		System.out.println("문자를 하나 입력하세요 : ");
 		String s = sc.nextLine();
 		int a;
@@ -48,7 +48,7 @@ public class LogicalExam {
 			}if(a >= 32) {
 				s = s.substring(0,a+1);
 				break;
-			}
+			}//16진수로 구한 값
 		}
 		
 		

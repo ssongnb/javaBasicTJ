@@ -5,7 +5,7 @@ public class VariableExam {
 	//global variable
 	//전역변수 - 변수의 선언 위치가 클래스블록 안
 	//		    변수의 사용 범위는 클래스 전체가 된다.
-	int globalScope = 10;
+	static int globalScope = 10;
 	static int staticVal = 7;
 	
 	public void scopeTest(int value) {
@@ -27,8 +27,8 @@ public class VariableExam {
 	public static void main(String[] args) {
 		
 		System.out.println(globalScope);
-		System.out.println(localScope);
-		System.out.println(value);
+		//System.out.println(localScope);
+		//System.out.println(value);
 		
 		System.out.println(staticVal);
 		

@@ -21,8 +21,8 @@ public class EnumExam {
 		gender2 = Gender.MALE;
 		gender2 = Gender.FEMALE;
 		
-		gender2 = "girl";
-		gender2 = 1;
+		//gender2 = "girl";
+		//gender2 = 1;
 		//gender2는 특정값만담을 수 있게 제어
 		
 		

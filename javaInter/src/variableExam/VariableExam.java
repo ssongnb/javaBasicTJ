@@ -80,13 +80,13 @@ public class VariableExam {
 		 *  	: 상수의 이름 모두 대문자로하는 것이 암묵적인 관례이다.
 		 *  
 		 *   int i = 'A'; 		// 문자 'A'의 코드 값이 저장된다.
-		 *   long i = 123;		// int 의 크기보다 long의 크기가 더 크다.
+		 *   long l = 123;		// int 의 크기보다 long의 크기가 더 크다.
 		 *   double d = 3.14f	// double의 크기가 float보다 크다.
 		 *   
-		 *   float f = 3.14;	// **에러 double을 float에 넣을 수 없다.
+		 *   float f = 3.14; (x)// **에러 double을 float에 넣을 수 없다.
 		 *   					// 무조건 double은 float에 넣을 수 없다.(크기와 상관 없이)
-		 *   int i = 4532156584548542151254L;	//**에러 long의 크기가 더 크기때문에 int에 넣을 수 없다.
-		 *   									//형이다른것보다 작은 것을 큰것에 넣을 수 없다. 
+		 *   int i = 4532156584548542151254L;	(x)//**에러 long의 크기가 더 크기때문에 int에 넣을 수 없다.
+		 *   									   //형이다른것보다 작은 것을 큰것에 넣을 수 없다. 
 		 * 		
 		 */
 		
@@ -144,7 +144,7 @@ public class VariableExam {
 		
 		//파리썬에서의 두변수 값 교환  x,y = y,x
 		
-		
+		//알고리즘 - 문제해결방법/회사에서 입사시 알고리즘 테스트 多
 		
 		/*
 		 * int year = 0; int age = 15; 
